@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Portfolio Luidjy Aubel</title>
+
+  <meta name="author" content="Luidjy Aubel">
+  <meta name="description" content="Portfolio d'un étudiant en BTS sio, orienté programmation">
+  <meta name ="robots" content ="index, follow">
+  <meta name=" copyright" content="Luidjy Aubel"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+  <header class="header">
+    <div id="conteneur">
+      <h1 id="header" class="test"><a href="#" title="Portfolio d'un étudiant en BTS sio"><span>Portfolio Luidjy Aubel</span></a>
+      </h1>
+      <h1 id="responT"><a href="#" title="Portfolio d'un étudiant en BTS sio"><span>Portfolio</span></a></h1>
+      <nav>
+        <div id="responM">
+          <a href="index.html" title="Accueil"><span>Accueil</span></a>
+          <a href="index2.html" title="Mes Compétences"><span>Skills</span></a>
+          <a href="index3.html" title="Curiculum Vitae"><span>CV</span></a>
+          <a href="index4.html" title="Veille Technologie"><Span>Veille</Span></a>
+          <a href="index5.html" title="Documentation technique"><span>Docs</span></a>
+          <a href="index6.html" title="Me contacter"><span>Contact</span></a>
+        </div>
+        <ul id="menu">
+          <li><a href="index6.html" title="Me contacter"><span>Contact</span></a></li>
+          <li><a href="index5.html" title="Documentation technique"><span>Documentation</span></a></li>
+          <li><a href="index4.html" title="Veille Technologie"><Span>Veille</Span></a></li>
+          <li><a href="index3.html" title="Curiculum Vitae"><span>CV</span></a></li>
+          <li><a href="index2.html" title="Mes Compétences"><span>Compétences</span></a></li>
+          <li><a href="index.html" title="Accueil"><span>Accueil</span></a></li>
+         
+        </ul>
+      </nav>
+  </header>
+  <main>
+    <article>
+
+     <div id="GoUp"><a href="#ancre1"><img src="rapide 10 gif fleche.gif" alt="Aller en Bas" /></a></div>
+     
+      <div id="contenu">
+        <h2 align="center" id="ancre1">Formulaire</h2>
+      </div>
+      <div>
+        <hr><br>
+        <center><form action="2.php" method="POST" >
+          Nom :    <input type="text" name="nom"    value=""> 
+          Prenom : <input type="text" name="prenom" value=""> 		
+          <br><br>
+          <b> Quelles est le type de probleme ?	</b>		<br>
+          <input type="radio" name="probleme" value="Hardware" checked> Hardware		<br>
+          <input type="radio" name="probleme" value="Software"> Software		<br>
+          <input type="radio" name="probleme" value="Malware"> Malware		<br>
+          <br>
+          <b>Quelle est votre utilisation de votre appareil ?</b><br>
+          <input type="checkbox" name="utility[]" value="Bureautique" checked> Bureautique		<br>
+          <input type="checkbox" name="utility[]" value="Gaming"> Gaming		<br>
+          <input type="checkbox" name="utility[]" value="Travail"> Travail		<br>
+          <input type="hidden" name="created" value="Luidjy Aubel" />
+          <b> Quelle est le chipset/processeur  ?</b><br>
+          <select name="nice">
+            <option value="AMD" select>AMD</option>
+            <option value="INTEL">INTEL</option>
+            <option value=" CHE PO">CHE PO</option>
+          </select><br>
+		  <b> Précisions ?</b><br>
+		  <textarea id="remarque" name="preci"rows="5" cols="33" placeholder="ecrivez ici..."/></textarea>
+          <br><br>
+          <input type=submit name="submit" value="Envoyer" >
+          <input type=reset  value="Tout Effacer" >
+        </form></center>
+        <hr><br>
+      </div>
+    </article>
+  </main>
+  <footer>
+    <div id="ramitdown">
+      <p id="footer"></p>
+      <a id="footer" href="legale.html">Mentions légales</a>
+     <p id="footer">© Créer en HTML, design et code par luidjy Aubel</p>
+  </div>
+  </footer>
+
+</body>
+
+</html>
