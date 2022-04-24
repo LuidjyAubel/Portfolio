@@ -1,8 +1,8 @@
-Nom : Aubel
-Prenom : Luidjy
-Probleme : Hardware
-Chipset : INTEL
-utilisation :Bureautique
-Message : Ram
-
-
+Nom : Aubel
+Prenom : Luidjy
+Probleme : Hardware
+Chipset : INTEL
+utilisation :Bureautique
+Message : Ram
+
+
