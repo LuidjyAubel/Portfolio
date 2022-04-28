@@ -1,10 +1,10 @@
 <!doctype html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <title>Flux RSS | Cloud computing</title>
+        <title>Veille technologique</title>
         <meta name="author" content="Luidjy Aubel">
-  <meta name="description" content="Flux RSS Cloud Computing, orienté programmation">
+  <meta name="description" content="Veille technologique sur le cloud Computing">
   <meta name ="robots" content ="noindex, follow">
   <meta name=" copyright" content="Luidjy Aubel"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -41,8 +41,20 @@
     <main>
         <article>
             <div id="GoUp"><a href="#ancre1"><img src="rapide 10 gif fleche.gif" alt="Aller en Bas" /></a></div>
-	    <div id='contenu'><h2 align='center' id='ancre1'>Flux RSS Cloud computing</h2></div>
+	    <div id='contenu'><h2 align='center' id='ancre1'>Veille cloud computing</h2></div>
         <div class="content">
+        <h3 style="margin-left:2%; font-size: 25px;">Résumé :</h3>
+        <p class="part" style="margin-left:2%; margin-right: 2%;">Le cloud computing est une technologie qui nous permet d'accéder à des services comme des serveurs, des logiciels... Via le réseau internet de n'importe où dans le monde, l'utilisateur utilise du hardware et du software mis à sa disposition par un fournisseur extérieur comme Google (Avec le Google App Engine (GAE), Microsoft azure...). Cette technologie utilise notamment la virtualisation et la conteneurisation pour mettre en place les différents services mis à disposition, on peut notamment retrouver les services web ( Linux avec Apache ou Nginx, ou chez Windows avec Internet Information Services (IIS)) ou encore des packages de logiciel tels que la suite Visual studio (Visual studio code, Visual studio 2019, Visual basic, Visual web developper) et d'autre services
+
+</p>
+        <h3 style="margin-left:2%; font-size: 25px;">outils de veille :</h3>
+        <p class="part" style="margin-left:2%;">
+            Alert google<br>
+            flux RSS<br>
+            Netvibes<br>
+            newletter (Developpez.com, Hitek.fr)
+        </p>
+        <h3 style="margin-left:2%; font-size: 25px;">Actualité cloud computing :</h3>
 
             <!--<form method="post" action="">
                 <input type="text" name="feedurl" placeholder="Enter website feed URL">&nbsp;<input type="submit" value="Submit" name="submit">
@@ -72,8 +84,11 @@
                 $title = $item->title;
                 $link = $item->link;
                 $description = $item->description;
+                $description = htmlspecialchars($description);
                 $postDate = $item->pubDate;
-                $pubDate = date('D, d M Y',strtotime($postDate));
+                setlocale(LC_TIME, 'fr_FR');
+                date_default_timezone_set('Europe/Paris');
+                $pubDate = date('d m Y', strtotime($postDate));
 
 
                 if($i>=15) break;
@@ -99,11 +114,13 @@
         }
     ?>
         </div>
+        <div id="github"><a target="_blank" href="https://github.com/LuidjyAubel"><img src="25231.png" alt="compte github" /></a></div>
+        </article>
         <footer>
         <div id="ramitdown">
             <p id="footer"></p>
             <a id="footer" href="legale.html">Mentions légales</a>
-           <p id="footer">© Créer en HTML, design et code par luidjy Aubel</p></div>
+           <p id="footer">© Créé en HTML, design et code par luidjy Aubel</p></div>
     </footer>
     </body>
 </html>
