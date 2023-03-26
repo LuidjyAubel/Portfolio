@@ -1,0 +1,23 @@
+.title{
+        line-height: 27px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        color: darkblue;
+        position: relative;
+        bottom: 1em;
+}
+div.title h2{
+    padding: 0%;
+    margin: 0%;
+}
+main article p{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+p strong{
+    font-weight: bold;
+}

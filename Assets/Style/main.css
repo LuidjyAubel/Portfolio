@@ -1,0 +1,67 @@
+html {
+	font-family: consolas;
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0px 0;
+	padding: 0;
+	text-align: Left;
+}
+header h1{
+    width: 100%;
+    height: 300px;
+	background: url("../Pictures/1234.jpg") no-repeat center;
+	margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .25), 0 5px 15px 2px rgba(0, 0, 0, .2) !important;
+}
+#site_title{
+    text-decoration: none;
+    color: white;
+    padding-left: 0.5%;
+}
+nav div{
+    padding-right: 0.5%;
+    display: initial !important;
+    position: relative;
+    bottom: 18em;
+    float: right;
+}
+nav div a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Consolas !important;
+    padding: 6px;
+}
+nav div a:hover{
+    text-decoration: underline;
+}
+main article div#btn-down{
+    position: relative;
+    bottom: 2em;
+    left: 50%;
+    width: fit-content;
+}
+#github {
+	position: fixed;
+	bottom: 12%;
+	right: 2%;
+}
+footer div{
+    background: rgb(51, 51, 51);
+    width: 100%;
+    height: 51px;
+    padding-top: 1em;
+}
+footer div a{
+    color: white;
+    text-decoration: none;
+}
+footer div a:hover{
+    text-decoration: underline;
+}
+footer div p{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}

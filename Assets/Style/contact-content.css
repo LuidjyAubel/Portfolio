@@ -1,0 +1,64 @@
+.title{
+    line-height: 27px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: darkblue;
+    position: relative;
+    bottom: 1em;
+}
+div.title h2{
+padding: 0%;
+margin: 0%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.maplogo {
+	width: 100px;
+}
+.contact {
+	margin-bottom: 50px;
+    text-align: center;
+}
+.forminput {
+	border-radius: 40px 40px;
+	width: 350px;
+	height: 25px;
+	border: 1px solid black;
+}
+.forminput2 {
+	border-radius: 40px 40px;
+	width: 360px;
+	height: 250px;
+	resize: none;
+	border: 1px solid black;
+	padding: 3px;
+	margin-bottom: 20px;
+}
+.formulaire {
+	margin-bottom: 50px;
+    text-align: center;
+}
+.submit-form {
+	border-radius: 40px 40px;
+	width: 200px;
+	height: 50px;
+	background: radial-gradient(blue, darkblue);
+	color: white;
+	border: 2px px solid;
+}
+.submit-form:hover{
+    background: radial-gradient(rgb(43, 42, 102), blue);
+}
+.textarea {
+	border: solid 1px black;
+	border-radius: 10px;
+	width: 304px;
+	height: 237px;
+	resize: none;
+	outline: none;
+}
