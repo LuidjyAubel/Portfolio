@@ -1,11 +1,15 @@
 html {
 	font-family: consolas;
 	scroll-behavior: smooth;
+    min-height: 100%;
+    height: 100%;
 }
 body {
 	margin: 0px 0;
 	padding: 0;
 	text-align: Left;
+    height: 100%;
+    min-height: 100%;
 }
 header h1{
     width: 100%;
@@ -47,21 +51,28 @@ main article div#btn-down{
 	bottom: 12%;
 	right: 2%;
 }
-footer div{
+.footer{
     background: rgb(51, 51, 51);
     width: 100%;
     height: 51px;
     padding-top: 1em;
+    position: relative;
+    bottom: 0;
 }
-footer div a{
+.footer a{
     color: white;
     text-decoration: none;
 }
-footer div a:hover{
+.footer a:hover{
     text-decoration: underline;
 }
-footer div p{
+.footer p{
     color: white;
     padding: 0px;
     margin: 0px;
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
 }

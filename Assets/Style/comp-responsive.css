@@ -1,0 +1,22 @@
+@media (max-width: 800px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        margin-left: 1%;
+        margin-right: 2%;
+        width: 25em !important;
+        margin: 25px;
+        padding: 10px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2), 0 2px 10px 0 rgba(0, 0, 0, .1);
+        border-radius: 40px 40px;
+    }
+    .card-title{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

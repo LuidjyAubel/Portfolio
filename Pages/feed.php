@@ -12,6 +12,8 @@
 
         <link rel="stylesheet" href="../Assets/Style/main.css">
         <link rel="stylesheet" href="../Assets/Style/feed-content.css">
+        <link rel="stylesheet" href="../Assets/Style/Responsive.css">
+        <link rel="stylesheet" href="../Assets/Style/veille-responsive.css">
     </head>
     <body>
     <header>
@@ -87,11 +89,10 @@
         </div>
         <div id="github"><a target="_blank" href="https://github.com/LuidjyAubel"><img src="../Assets/Pictures/25231.png" alt="compte github" /></a></div>
         </article>
-        <footer>
-        <div>
-            <a href="legale.html">Mentions légales</a>
-           <p>© Créé en HTML, design et code par luidjy Aubel</p></div>
-    </footer>
+        <div class="footer">
+      <a href="legale.html">Mentions légales</a>
+      <p>© Créé en HTML, design et code par luidjy Aubel</p>
+    </div>
     </body>
 </html>
 

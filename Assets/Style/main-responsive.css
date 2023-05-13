@@ -1,0 +1,11 @@
+@media (max-width: 800px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 25em !important;
+    }
+}
